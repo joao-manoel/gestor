@@ -1,0 +1,22 @@
+{
+  "name": "@rs/auth",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "devDependencies": {
+    "@rs/eslint-config": "workspace:*",
+    "@rs/prettier": "workspace:*",
+    "@rs/tsconfig": "workspace:*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@rs/eslint-config/library"
+    ]
+  },
+  "prettier": "@rs/prettier",
+  "dependencies": {
+    "@casl/ability": "^6.7.1",
+    "zod": "^3.23.8"
+  }
+}
